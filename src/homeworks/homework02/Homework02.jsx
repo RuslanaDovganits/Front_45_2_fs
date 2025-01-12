@@ -12,7 +12,7 @@ export default function Homework02() {
                 textDecoration: "underline", // Подчёркивание
                 backgroundColor: "yellow", // Фон
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)", // Тень текста
-              }}>Homework 03 🐰</p>
+              }}>Homework 02 🐰</p>
            <ProfileCard/>
         </div>
     )
