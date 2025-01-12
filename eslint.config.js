@@ -23,6 +23,7 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+    // настраиваемые 
     rules: {
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
@@ -31,8 +32,9 @@ export default [
       'react/jsx-no-target-blank': 'off',
       'react-refresh/only-export-components': [
         'warn',
-        { allowConstantExport: true },
-      ],
+        { allowConstantExport: true }],
+        "no-unused-vars": 0,
+        "react/prop-types": 0
     },
   },
-]
+];
