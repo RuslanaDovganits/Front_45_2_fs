@@ -6,6 +6,7 @@ import MyInput from "../myInput/MyInput";
 export default function LoginForm() {
     return(
         <div>
+            {/* <form><form/> */}
             <span style={{color: 'red', fontSize: '30px', fontWeight: 'bold'}}>Form:</span>
       <MyInput name='login' type='text' placeholder='enter your login' label='login:'/> 
        <MyInput name='email' type='text' placeholder='enter your email' label='email:'/> 

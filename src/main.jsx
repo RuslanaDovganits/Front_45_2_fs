@@ -11,6 +11,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
    {/* здесь происходит вызов компонента App с версткой */}
     <App />
+   
  
   </StrictMode>,
 )
